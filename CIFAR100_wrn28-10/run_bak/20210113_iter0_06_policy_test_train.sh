@@ -1,1 +1,0 @@
-python main.py --is_train=False --dataset=cifar100 --play_model=models/20210113_iter0_06/ --stop_step=10 --save_h5=data/augmentation/20210113_iter0_06_train --reverse_reward=True --test_dir=data/cifar100/train/ --class_model=autoaug2/training/20210113_iter0_06/model.ckpt-199  --reward_mul=10 | tee models/20210113_iter0_06/test_output_train.log
